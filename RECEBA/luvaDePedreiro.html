@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuvaDePedreiro</title>
+</head>
+<body>
+    
+    <img class="receba" src="Assets/RECEBA.jpg" alt="RECEBAAAAAAAAAAAAA">
+    <audio id="audiorecebaengrasado" src="Assets/recebaaudio.mp3"></audio>
+    <button onclick="playaudio()" type="button">clique e veja o que o receba tem a dizer...</button>
+
+    <style>
+        .receba{
+            color: aliceblue;
+            width: 100px;
+        }
+
+    </style>
+
+    <script>
+        function playaudio(){
+            const audio = document.getElementById("audiorecebaengrasado");
+            audio.play();
+        }
+
+    </script>    
+
+</body>
+</html>
